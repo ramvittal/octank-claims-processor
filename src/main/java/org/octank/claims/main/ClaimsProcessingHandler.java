@@ -110,6 +110,7 @@ public class ClaimsProcessingHandler implements RequestHandler<Request, String> 
 			           
 		           }
 		           
+		           System.out.println("***Claim Status:" +cp.getClaimStatus() + " ***");
 		           
 		           
 		           String claimIdSt = claim.getClaimId() +"~" + cp.getClaimStatus();

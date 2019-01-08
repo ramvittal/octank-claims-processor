@@ -93,7 +93,7 @@ public class ClaimsProcessingHandler implements RequestHandler<Request, String> 
 		           //perform pre-edits, check patient info for completeness
 		           
 		           if(patient.getPatientAddress() == null || patient.getPatientAddress().isEmpty()
-		        		  || patient.getPatientCity() == null || patient.getPatientCity().isEmpty()
+		        		//demo  || patient.getPatientCity() == null || patient.getPatientCity().isEmpty()
 		        		   ) {
 		        	   cp.setClaimStatus("Incomplete");
 		           } else {
